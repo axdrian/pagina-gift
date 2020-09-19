@@ -1,0 +1,321 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: serif;
+	font-size: 16px;
+	background: #fff;
+}
+
+.contenedor{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+/*----------Header----------*/
+header {
+	width: 100%;
+	height: 400px;
+	/*background: linear-gradient(to bottom,
+			rgba(211, 135, 20, .6), rgba(29, 241, 171, .6), rgba(7, 109, 150, .45)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdWIawRXowtPQXG6uyO44FE30pdLKcRUMH-A&usqp=CAU);*/
+background: linear-gradient(to bottom,
+			rgba(0, 0, 0, .6), rgba(6, 6, 6, .45)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdWIawRXowtPQXG6uyO44FE30pdLKcRUMH-A&usqp=CAU);
+}
+header .contenedor-textos-header{
+	margin: 50px;
+	text-align: center;
+}
+header .contenedor-textos-header .titulo-header {
+	font-size: 100px;
+	color: #fff;
+	margin-bottom: 5px;
+}
+header .contenedor-textos-header .linea {
+	width: 600px;
+	margin: auto;
+	height: 3px;
+	background: #15a4fa;
+	margin-bottom: 20px;
+}
+header .contenedor-textos-header .subtitulo-header {
+	font-size: 60px;
+	color: #fff;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+/*----------cancion----------*/
+main .cancion{
+	background: #f0f3f5;
+	padding: 45px 0;
+	text-align: center;
+}
+
+.cancion .contenedor .contenedor-texto-cancion .titulo-cancion{
+	font-size: 24px;
+	font-weight: 900;
+	margin-bottom: 20px;
+}
+
+.cancion .contenedor .contenedor-texto-cancion .parrafo-cancion{
+	color: #555555;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+/*----------Targetas----------*/
+
+.tarjetas{
+	padding: 30px 0;
+}
+
+.tarjetas .contenedor-tarjetas{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.contenedor-tarjetas .tarjeta-individual{
+	width: 33%;
+	margin: 20px;
+}
+
+.contenedor-tarjetas .tarjeta-individual img{
+	height: 200px;
+}
+
+.contenedor-tarjetas .tarjeta-individual h3{
+	margin: 10px 0;
+}
+
+
+
+
+.contenido {
+	display: flex;
+	justify-content: center
+}
+
+.textos {
+	display: flex;
+	color: blue;
+	flex-direction: column;
+	align-items: center;
+}
+
+.textos h1 {
+	margin-top: 100px;
+	display: inline-block;
+	margin-bottom: 20px;
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.textos h2 {
+	display: inline-block;
+	font-size: 40px;
+}
+
+.contenido img {
+	margin: 50px 20px;
+	border-radius: 10px;
+}
+
+/*----------Seccion Cancion----------*/
+.section-cancion {
+	background: #FFF;
+	height: 300px;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center
+}
+
+.cancion{
+display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.titulo-cancion h2{
+	display: inline-block;
+	margin-top: 20px;
+	
+}
+.titulo-cancion {
+
+}
+.contenido-cancion{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.contenido-cancion p{
+	margin: 20px
+}
+
+.contenido-cancion img{
+	border-radius: 5px;
+	height: 200px;
+	
+}
+
+/*----------Seccion Tarjetas----------*/
+.section-tarjetas{
+	background: #EBE7E7;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.tarjetas {
+	display: flex;
+	align-items: center;
+	justify-content:space-around;
+
+}
+
+.tarjetas p {
+	margin: auto;
+}
+
+.todas-tarjetas {
+	display: flex;
+}
+
+.cont-tarjetas {
+	width: 30%;
+	background: #FFF;
+	margin: auto;
+	margin-top: 20px;
+	display: flex;
+	border-radius: 10px;
+
+}
+
+.momento img {
+	height: 150px;
+	width: 100px;
+	border-radius: 20px;
+	margin: 20px;
+}
+
+.texto-momento {
+	margin: 20px;
+	color: #000;
+}
+
+.imgenes {
+	display: flex;
+}
+
+.imagenes img {
+	height: 100px;
+}
+
+/*----------Portafolio----------*/
+.portafolio{
+	background: #f0f0f5;
+	padding: 30px 0;
+}
+
+.portafolio .contenedor-textos-portafolio{
+	text-align: center;
+}
+
+.portafolio .contenedor-textos-portafolio .titulo-portafolio{
+	font-weight: 900;
+	font-size: 28px;
+	/*margin-bottom: 10px;*/
+}
+
+.portafolio .contenedor-textos-portafolio .parrafo-portafolio{
+	font-weight: normal;
+	color: #999999;
+	margin-bottom: 20px;
+}
+
+.portafolio .contenedor-portafolio{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portafolio .contenedor-portafolio img{
+	height: 150px;
+	margin: auto;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.portafolio .contenedor-portafolio img:hover{
+	opacity: .6;
+}
+
+/*----------Footer----------*/
+footer{
+	width: 100%;
+	height: 100px;
+	padding: 60px 0;
+	background: linear-gradient(to bottom,
+			rgba(0, 0, 0, .6), rgba(2,2,2,.45));
+}
+
+footer h3{
+	color: #ffffff;
+	font-weight: 600;
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+/*----------diseno responsivo---------*/
+
+@media screen and (max-width: 600px){
+	header .contenedor-textos-header{
+		margin: 75px;
+	}
+	header .contenedor-textos-header .titulo-header {
+		font-size: 75px;
+	}
+	header .contenedor-textos-header .subtitulo-header {
+	font-size: 45px;
+	
+	}
+}
+
+@media screen and (max-width: 500px){
+	header{
+		height: 300px;
+	}
+	header .contenedor-textos-header{
+		margin: auto;
+	}
+	header .contenedor-textos-header .titulo-header{
+		font-size: 50px;
+	}
+	header .contenedor-textos-header .subtitulo-header {
+	font-size: 35px;
+	
+	}
+
+	.contenedor-tarjetas{
+		flex-direction: column;
+	}
+
+	.tarjetas{
+		padding: 30px 10px;
+	}
+	.contenedor-tarjetas .tarjeta-individual{
+		width: 70%;
+		margin:auto;
+		padding: 10px
+	}
+
+	.contenedor-portafolio{
+		justify-content: space-around;
+	}
+
+	.portafolio .contenedor-portafolio img{
+		height: 100px;
+	}
+}
+
